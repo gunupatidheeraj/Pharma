@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:10-05-2024
+## Date:29-04-2024
 
 ## AIM:
 To design a responsive website for a Pharmaceutical Company using Bootstrap.
@@ -26,24 +26,41 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
+~~~
+home.html
 
-web.html
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - AN PharmaCompany</title>
+  <title>HOME</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url("back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 19px;
+    }
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: hsl(176, 70%, 44%); 
+      color: white;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">AN PharmaCompany</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">AI PHARMACEUTICALS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -51,7 +68,7 @@ web.html
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="web.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
@@ -67,9 +84,7 @@ web.html
         <li class="nav-item">
           <a class="nav-link" href="#">Login</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Register</a>
-        </li>
+        
       </ul>
     </div>
   </nav>
@@ -78,24 +93,25 @@ web.html
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-8">
-        <h1>Welcome to AN PharmaCompany</h1>
-        <p>Welcome to AN PharmaCompany,our purposeis to sell Online medicines in onlineand healthcare products.
-         Highlight what sets our app apart from competitors is This could be features like quick delivery, a wide range of products, user-friendly interface, etc.</p>
-        <p>At PharmaCompany, With a relentless focus on innovation and quality, we are at the forefront of cutting-edge medical advancements, ensuring that every product we create is a testament to our unwavering commitment to excellence..</p>
-        <p>In addition to medications,Pharmacompany are pivotal in creating and distributing drugs, vaccines, and medical devices to enhance human health. </p>
-        <p>Thank you for choosing PharmaCompany for your healthcare needs. We look forward to serving you and helping you live a healthier life.</p>
+        <h1>WELCOME TO AI PHARMACEUTICAL</h1>
+        <p>Welcome to AI Pharmaceuticals.We provide you the best quality of Medicines.Customers well being is what we wish always.</p>
+        <p>At Our Pharmaceuticals, we provide you all kind of medicines.</p>
+        <p>Thank you for choosing and trusting AI Pharmaceuticals.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="tb.jpg" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
       </div>
       <div class="col-md-4">
+        <img src="tt.avif" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
+      </div>
        
       </div>
     </div>
   </div>
-  <body background="bg.jpeg" style="background-repeat: no-repeat; background-size: cover;">
-
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-3">
-    <p>&copy; 2024 AN PharmaCompany. All rights reserved. BY NARRA NANDITHA</p>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121). All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -104,25 +120,43 @@ web.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+~~~
 
-
+~~~
 about.html
 
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About PharmaCompany</title>
+  <title>About Us</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url("back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 19px;
+    }
+    footer{
+    position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #343a40; 
+      color: white;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">AN PharmaCompany</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">AI PHARMACEUTICAL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -130,10 +164,18 @@ about.html
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
+          <a class="nav-link" href="home.html">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+            <a class="dropdown-item" href="#vision">Vision</a>
+            <a class="dropdown-item" href="#mission">Mission</a>
+            <a class="dropdown-item" href="#values">Values</a>
+            <!-- Add more subheadings as needed -->
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="product.html">Products</a>
@@ -149,42 +191,28 @@ about.html
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
-        <h1>ABOUT AN PharmaCompany</h1>
+        <h1>About AI PHARMACEUTICALS</h1>
         <div id="vision">
           <h2>Vision</h2>
-          <p>To be the leading online platform for accessible, affordable, and reliable healthcare solutions, empowering individuals to take control of their well-being from the comfort of their homes.</p>
+          <p>Our vision is to become a global leader in providing groundbreaking healthcare solutions that enhance the well-being of individuals worldwide. We aspire to pioneer innovations that redefine healthcare standards, empowering people to lead healthier, more fulfilling lives.</p>
         </div>
         <div id="mission">
           <h2>Mission</h2>
-          <p>Our mission at AN PharmaCompany is to revolutionize the way people access essential medicines and healthcare products. We strive to:
-
-            Provide a seamless and convenient online shopping experience for our customers.
-            Ensure the highest standards of quality, safety, and authenticity in the products we offer.
-            Foster a culture of innovation to continuously improve our services and exceed customer expectations.
-            Collaborate with healthcare professionals and industry partners to promote health education and awareness.
-            Make a positive impact on the communities we serve by enhancing accessibility to vital healthcare resources.</p>
+          <p>Our mission is to develop and deliver a comprehensive range of safe, effective, and affordable healthcare solutions that cater to the diverse needs of our customers. Through relentless dedication to research, development, and collaboration, we aim to address unmet medical needs and contribute positively to the health and vitality of communities globally.</p>
         </div>
         <div id="values">
           <h2>Values</h2>
-          <ul>
-            <li>Integrity: We uphold the highest ethical standards in all our interactions, fostering trust and transparency with our customers, partners, and stakeholders.</li>
-                <li> Empathy: We understand the diverse needs and challenges of our users and strive to provide personalized support and solutions with compassion and empathy.</li>
-                    <li> Excellence: We are committed to excellence in everything we do, from the quality of our products to the efficiency of our services, aiming for continuous improvement and innovation.</li>
-                        <li> Accessibility: We believe that everyone deserves access to essential healthcare products and services, regardless of their location, background, or circumstances.</li>
-                            <li>Collaboration: We value collaboration and teamwork, working closely with healthcare professionals, industry partners, and our community to achieve common goals and drive positive change.</li>
-                                <li>Customer-Centricity: We prioritize the needs and satisfaction of our customers above all else, striving to exceed their expectations and deliver exceptional value at every touchpoint.</li>
-                                    <li>Responsibility: We recognize our responsibility to society, the environment, and future generations, and are committed to conducting our business in a sustainable, socially responsible manner.</li>
-            
-          </ul>
+          <p>Quality lies at the core of everything we do, as we uphold the highest standards of excellence in all aspects of our operations. Integrity forms the foundation of our business practices, guiding us to conduct ourselves with unwavering honesty, transparency, and ethical conduct. Innovation fuels our quest for progress, driving us to continually push boundaries and improve our products and services to better serve our customers. With a relentless focus on customer needs, we strive to understand and anticipate their requirements, ensuring their satisfaction and trust. Through teamwork and collaboration, we harness the collective talents and strengths of our diverse workforce to achieve our shared objectives and deliver exceptional results that make a meaningful difference in the lives of individuals and communities.
+          </p>
         </div>
         <!-- Add more subheadings as needed -->
       </div>
     </div>
   </div>
-  <body background="bg.jpeg" style="background-repeat: no-repeat; background-size: cover;"></body>
+
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-3">
-    <p>&copy; 2024 AN PharmaCompany. All rights reserved.  BY NARRA NANDITHA</p>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -193,48 +221,59 @@ about.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+~~~
 
-
+~~~
 product.html
 
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products - AN PharmaCompany</title>
+  <title>Products</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url("back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 10px;
+    }
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #343a40; 
+      color: white;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">AN PharmaCompany</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">AI PHARMACEUTICALS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
+          <a class="nav-link" href="home.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Products
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Over-the-counter (OTC) Medications</a>
-            <a class="dropdown-item" href="#">Prescription Drugs</a>
-            <a class="dropdown-item" href="#">Vaccines</a>
-            <a class="dropdown-item" href="#">Supplements</a>
-          </div>
-        </li>
         <li class="nav-item active">
+          <a class="nav-link" href="product.html">Products <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
@@ -250,33 +289,32 @@ product.html
   </nav>
 
   <!-- Page Content -->
-  <div class="container mt-3">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
-        <h1>Our Product categories</h1>
+        <h1>Our Products</h1>
         <div class="card-deck">
           <div class="card">
-            <img src="foxtale.png" class="card-img-top" alt="Product 1" width="200" height="200">
+            <img src="cough.webp" class="card-img-top" alt="Product 1">
             <div class="card-body">
-              <h5 class="card-title">FACE WASH</h5>
-              <p class="card-text">FoxTale Essentials Daily Glow Face Moisturizer | Brightening Ingredients - Niacinamide,Kokum Butter And Vitamin E For 24 Hour Hydration | Fast Absorbing | Men &Women | All Skin Types</p>
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">Pankajakasthuri Cough Syrup with Tulsi 100ml</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
           <div class="card">
-            <img src="cream.png" class="card-img-top" alt="Product 2" width="200" height="200">
+            <img src="boster.webp" class="card-img-top" alt="Product 2">
             <div class="card-body">
-              <h5 class="card-title">FACE WASH</h5>
-              <p class="card-text">
-                DERMATOUCH Bright & Even Tone Face Wash with Niacinamide, Vitamin E and Kojic Acid | Daily Gentle Face Cleanser For Tan, Pigmentation, Uneven Tone, Dark Spot Removal</p>
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">Health Veda Organics Natural Immunity Booster Capsules for Men & Women I Immunity blend of Amla, Giloy, Tulsi, Neem & Ashwagandha I 60 Veg Capsules</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
           <div class="card">
-            <img src="cetaphil.png" class="card-img-top" alt="Product 3" width="200" height="200">
+            <img src="tablet.jpg" class="card-img-top" alt="Product 3">
             <div class="card-body">
-              <h5 class="card-title">FACE WASH</h5>
-              <p class="card-text">Cetaphil Oily Skin Cleanser , Daily Face Wash for Oily, Acne prone Skin , Gentle Foaming</p>
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">Amway Tulsi Tablet Supports Immunity 60N (Tablets) for Immunity</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -287,10 +325,8 @@ product.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 AN PharmaCompany. All rights reserved. By NARRA NANDITHA</p>
+    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121). All rights reserved.</p>
   </footer>
-  <body background="bg.jpeg" style="background-repeat: no-repeat; background-size: cover;">
-
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -299,21 +335,40 @@ product.html
 </body>
 </html>
 
+contact.html
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - AN PharmaCompany</title>
+  <title>Contact</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url("back.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 19px;
+    }
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: hsl(73, 87%, 48%); 
+      color: white;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">AN PharmaCompany</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">AI PHARMACEUTICAL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -321,7 +376,7 @@ product.html
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
+          <a class="nav-link" href="home.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
@@ -341,7 +396,7 @@ product.html
     <div class="row">
       <div class="col-md-8">
         <h1>Contact Us</h1>
-        <p>For any inquiries or feedback, please fill out the form below and we will get back to you as soon as possible.</p>
+        <p>For any queries please fill the form given below.</p>
         <form>
           <div class="form-group">
             <label for="name">Your Name</label>
@@ -353,31 +408,29 @@ product.html
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows=3" placeholder="Enter your message"></textarea>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
       <div class="col-md-4">
-        <h2>AN PharmaCompany</h2>
+        <h2>AI PHARMACEUTICAL</h2>
         <address>
           <strong>Address:</strong><br>
-          23-422/Balaji nagar Nellore<br>
-          India, 510501<br><br>
+          near college street,chennai<br>
+          <br>
           <strong>Email:</strong><br>
-          abc@AN_Pharma.com<br><br>
+          ai.pharma@gmail.com<br><br>
           <strong>Phone:</strong><br>
-          9876543210
+          +91-8856421390
         </address>
       </div>
     </div>
   </div>
-  <body background="back.png" style="background-repeat: no-repeat; background-size: cover;">
-
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-2">
-    <p>&copy; 2024 AN PharmaCompany. All rights reserved.BY NARRA NANDITHA</p>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -386,13 +439,16 @@ product.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+~~~
 
 ## OUTPUT:
+![Screenshot 2024-05-11 090510](https://github.com/04Varsha/Pharma/assets/149035374/3abd0773-579d-4710-a5e6-9711dc966c39)
 
-![alt text](o2.png)
-![alt text](o3.png)
-![alt text](o4.png)
-![alt text](o5.png)
+![Screenshot 2024-05-11 091815](https://github.com/04Varsha/Pharma/assets/149035374/6e79aecf-8d13-447c-ba48-8f1448e46d59)
+
+![Screenshot 2024-05-11 131331](https://github.com/04Varsha/Pharma/assets/149035374/1b44e83e-57b4-4809-a804-2bec282f3c1e)
+
+![Screenshot 2024-05-11 091203](https://github.com/04Varsha/Pharma/assets/149035374/fd2df671-467e-444c-aba9-a7f41128e842)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
